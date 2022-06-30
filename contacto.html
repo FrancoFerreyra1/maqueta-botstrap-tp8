@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/77ec6212d5.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/jquery.slim.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="conteiner">
+        <header class="row">
+            <div class="col-lg-8">
+                <h1>Pasteleria</h1>
+            </div>
+            <div class="col-lg-4">
+                <ul class="nav nav-pills nav-justified">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html"> inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                  </ul>
+                  
+            </div>
+        </header>
+        <section class="conteiner__contacto">
+              <article class="Formulario">
+                <form action="#">
+                    <input type="text" placeholder="DECIME TU NOMBRE"><br>
+                    <label for="email">Decime tu email:
+                        <input type="email" placeholder="aaa@gmail.com" name="email"><br>
+                    </label>
+                    <label for="Observaciones" class="observaciones"> Observaciones:<br>
+                        <textarea placeholder="Observaciones"></textarea>
+                    </label> <br>
+                    <input type="number" placeholder="DECIME TU EDAD"><br>
+                    <div>
+                        <p>Elegi un postre:</p>
+                        <div>Alfajores
+                            <input type="radio" name="lado" value="Alfajores">
+                        </div>
+                        <div>Tortas
+                            <input type="radio" name="lado" value="Tortas">
+                        </div>
+                    </div>
+                    <div>
+                        <p>Elegi un estado:</p>
+                        <div>Soltero/a
+                            <input type="radio" name="Estado" value="Soltero">
+                        </div>
+                        <div>Casado/a
+                            <input type="radio" name="Estado" value="Casado">
+                        </div>
+                    </div>
+                    <p>Que postre te gusta mas?</p>
+                    <select name="Postre" id="Postre">
+                        <option value="Chocotorta">Chocotorta</option>
+                        <option value="Alfajores">Alfajores</option>
+                        <option value="Tortas">Tortas</option>
+                    </select>
+                    <div>Queres recibir info sobre nosotros?
+                        <input type="checkbox" name="acepta" value="1">
+                    </div>
+                    <input type="submit" value="Enviar informacion">
+                    <input type="reset" value="Resetear">
+                </form>
+        </section>
+        <footer>
+         <div class="row">
+            <div class="col-lg-8" id="contacto"> Contactanos</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4" id="gmail">Franco123@gmail.com</div>
+          </div>
+        </footer>
+    
+</body>
+</html>
